@@ -41,7 +41,7 @@ def display_hardening_index():
     
 # Function to execute a bash script for hardening
 def run_hardening_bash_script():
-    subprocess.run(["sudo","bash", "hardening_bash.sh"])
+    subprocess.run(["sudo","bash", "hardening_comands.sh"])
 
 # Function to apply various system hardening measures
 def edit_directory():
